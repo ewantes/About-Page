@@ -7507,7 +7507,7 @@ footer {
   left: 11%;
 }
 .bottop-input {
-  height: 100px;
+  height: auto;
   width: 100%;
   overflow: hidden;
 }

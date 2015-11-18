@@ -1,0 +1,285 @@
+@import "less/variables.less";
+@red: #d83d29; // variables
+@light-grey: #e6e5cf;
+@light-blue: #1c5281;
+@light-cream: #efeed5;
+@light-yellow: #fde127;
+@light-black: #33332e;
+@font-face {
+    font-family: "PTSerifRegular";
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot");
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifRegular/PTSerifRegular.woff") format("woff"), url("../fonts/PTSerifRegular/PTSerifRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifBoldItalic"; */
+
+@font-face {
+    font-family: "PTSerifBoldItalic";
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot");
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff") format("woff"), url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifItalic"; */
+
+@font-face {
+    font-family: "PTSerifItalic";
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot");
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifItalic/PTSerifItalic.woff") format("woff"), url("../fonts/PTSerifItalic/PTSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifBold"; */
+
+@font-face {
+    font-family: "PTSerifBold";
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot");
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifBold/PTSerifBold.woff") format("woff"), url("../fonts/PTSerifBold/PTSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansCaptionRegular"; */
+
+@font-face {
+    font-family: "PTSansCaptionRegular";
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot");
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.woff") format("woff"), url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansCaptionBold"; */
+
+@font-face {
+    font-family: "PTSansCaptionBold";
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot");
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansCaptionBold/PTSansCaptionBold.woff") format("woff"), url("../fonts/PTSansCaptionBold/PTSansCaptionBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansRegular"; */
+
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"), url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansRegular"; */
+
+@font-face {
+    font-family: "PTSansBold";
+    src: url("../fonts/PTSansBold/PTSansBold.eot");
+    src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansBold/PTSansBold.woff") format("woff"), url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+.projects-content {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.report-articte-last {
+    padding-bottom: 100px;
+}
+.about-left {
+    .about-sub {
+        padding-top: 100px;
+        h3 {
+            font-family: "PTSerifBold";
+            font-size: 21px;
+        }
+        ul {
+            padding-top: 28px;
+            li {
+                padding-bottom: 20px;
+                img {
+                    margin-left: 7px;
+                    vertical-align: sub;
+                }
+                a {
+                    font-size: 12px;
+                    color: @light-blue;
+                    font-family: "PTSansCaptionRegular";
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .last-news {
+        padding-top: 44px;
+        h2 {
+            span {
+                font-family: "PTSerifBold";
+                font-size: 22px;
+                color: @light-blue;
+                &:first-child {
+                    color: #000;
+                }
+            }
+        }
+        .date {
+            font-family: "PTSansRegular";
+            font-size: 14px;
+            color: @light-black;
+            padding-top: 26px;
+            display: block;
+        }
+        .last-news-article {
+            font-family: "PTSerifBold";
+            font-size: 14px;
+            color: @light-blue;
+            display: block;
+            padding-top: 14px;
+            line-height: 20px;
+        }
+    }
+}
+.about-right {
+    color: @light-black;
+    h1 {
+        font-size: 52px;
+        font-family: "PTSerifBold";
+        padding-top: 73px;
+    }
+    p {
+        &:first-of-type {
+            line-height: 24.5px;
+            font-size: 22px;
+            padding-top: 27px;
+            font-weight: 200;
+        }
+        font-size: 12px;
+        font-family: "PTSerifRegular";
+        padding-top: 27px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    ul {
+        padding-left: 15px;
+        padding-top: 30px;
+        list-style-image: url(../img/Ellipse.png);
+        li {
+            padding-bottom: 23px;
+            font-size: 12px;
+            font-weight: 600;
+            padding-left: 5px;
+        }
+    }
+    .img-hex {
+        img {
+            max-width: 80%;
+            margin-left: 8%;
+        }
+    }
+    .about-form {
+        h3 {
+            font-size: 24px;
+            font-family: "PTSerifBold";
+            padding-top: 30px;
+        }
+        .about-form-article {
+            padding-top: 50px;
+            .hexagon-form {
+                position: relative;
+                width: 64px;
+                height: 36.95px;
+                background-color: @light-yellow;
+                margin: 18.48px 0;
+                span {
+                    position: absolute;
+                    color: @light-blue;
+                    font-size: 22px;
+                    font-family: "PTSansCaptionRegular";
+                    top: 18%;
+                    right: 40%;
+                }
+            }
+            .hexagon-form:before,
+            .hexagon-form:after {
+                content: "";
+                position: absolute;
+                width: 0;
+                border-left: 32px solid transparent;
+                border-right: 32px solid transparent;
+            }
+            .hexagon-form:before {
+                bottom: 100%;
+                border-bottom: 18.48px solid @light-yellow;
+            }
+            .hexagon-form:after {
+                top: 100%;
+                width: 0;
+                border-top: 18.48px solid @light-yellow;
+            }
+        }
+        p {
+            font-size: 12px;
+            font-family: "PTSerifRegular";
+            color: @light-black;
+            font-weight: 600;
+        }
+    }
+    .about-report {
+        padding-top: 77px;
+        h2 {
+            font-size: 33px;
+            font-family: "PTSerifRegular";
+            color: @light-black;
+        }
+        h3 {
+            font-size: 21px;
+            font-family: "PTSerifBold";
+        }
+        a {
+            color: @light-black;
+            font-family: "PTSerifRegular";
+            font-size: 12px;
+        }
+        .report-articte {
+            padding-top: 30px;
+            .report-year {
+                padding-left: 26px;
+                h3 {
+                    padding-top: 7px;
+                }
+                span {
+                    padding-top: 8px;
+                    display: block;
+                }
+            }
+            .hexagon-report {
+                position: relative;
+                width: 62px;
+                height: 35.80px;
+                background-color: @light-blue;
+                margin: 17.90px 0;
+                background-image: url(../img/report-hex.png);
+                background-repeat: no-repeat;
+                background-position: 18px;
+            }
+            .hexagon-report:before,
+            .hexagon-report:after {
+                content: "";
+                position: absolute;
+                width: 0;
+                border-left: 31px solid transparent;
+                border-right: 31px solid transparent;
+            }
+            .hexagon-report:before {
+                bottom: 100%;
+                border-bottom: 17.90px solid @light-blue;
+            }
+            .hexagon-report:after {
+                top: 100%;
+                width: 0;
+                border-top: 17.90px solid @light-blue;
+            }
+        }
+    }
+}

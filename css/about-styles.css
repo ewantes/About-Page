@@ -7701,3 +7701,8 @@ footer .hexagon:after {
     margin-left: 13.5%;
   }
 }
+@media (min-width: 1700px) {
+  #ddmenu {
+    font-size: 1.4em !important;
+  }
+}

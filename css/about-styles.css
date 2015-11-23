@@ -7307,14 +7307,13 @@ main {
   border-top: 14.43px solid #1c5281;
 }
 footer {
-  height: 1236px;
   width: 100%;
 }
 .footer-nav {
   width: 100%;
-  height: 775px;
   background-color: #efeed5;
-  padding-top: 85px;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .footer-nav-left {
   height: 100%;
@@ -7381,7 +7380,8 @@ footer {
 }
 .footer-contact {
   width: 100%;
-  height: 324px;
+  height: 100%;
+  padding-bottom: 6%;
   background-color: #17456c;
 }
 .mail-table a {
@@ -7652,6 +7652,9 @@ footer .hexagon:after {
 @media (min-width: 1200px) {
   #ddmenu {
     font-size: 1.2em !important;
+  }
+  .right-header-news nav {
+    margin-right: 14%;
   }
   .right-header-news nav #ddmenu {
     padding-top: 20px;

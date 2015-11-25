@@ -118,11 +118,16 @@ a:focus {
                 font-family: "PTSerifBold";
                 font-size: 22px;
                 color: @light-blue;
+                a{
+                    color: @light-blue;
+                    text-decoration: none;
+                }
                 &:first-child {
                     color: #000;
                 }
             }
         }
+
         .date {
             font-family: "PTSansRegular";
             font-size: 14px;
@@ -137,6 +142,10 @@ a:focus {
             display: block;
             padding-top: 14px;
             line-height: 20px;
+            a{
+                color: @light-blue;
+                text-decoration: none;
+            }
         }
     }
 }

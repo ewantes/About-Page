@@ -104,6 +104,10 @@ a:focus {
   font-size: 22px;
   color: #1c5281;
 }
+.about-left .last-news h2 span a {
+  color: #1c5281;
+  text-decoration: none;
+}
 .about-left .last-news h2 span:first-child {
   color: #000;
 }
@@ -121,6 +125,10 @@ a:focus {
   display: block;
   padding-top: 14px;
   line-height: 20px;
+}
+.about-left .last-news .last-news-article a {
+  color: #1c5281;
+  text-decoration: none;
 }
 .about-right {
   color: #33332e;

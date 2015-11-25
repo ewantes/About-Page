@@ -6859,6 +6859,7 @@ main {
   width: 10.8%;
   text-align: center;
   overflow: hidden;
+  z-index: 5;
 }
 .support a {
   display: block;
@@ -7386,11 +7387,13 @@ footer {
 .table-contact tr .mail-table {
   color: #fde127;
 }
+.text-inform-footer {
+  margin-top: 23.5%;
+}
 .link-info p {
   font-size: 14px;
   font-family: "PTSansRegular";
   color: #e8ebef;
-  margin-top: 96px;
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;

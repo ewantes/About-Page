@@ -224,9 +224,6 @@ a:focus {
 .about-right .about-report .report-articte {
   padding-top: 30px;
 }
-.about-right .about-report .report-articte .report-year {
-  padding-left: 26px;
-}
 .about-right .about-report .report-articte .report-year h3 {
   padding-top: 7px;
 }
@@ -260,4 +257,9 @@ a:focus {
   top: 100%;
   width: 0;
   border-top: 17.9px solid #1c5281;
+}
+@media (max-width: 350px) {
+  .about-right h1 {
+    font-size: 45px;
+  }
 }
